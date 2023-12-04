@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Notification Button</title>
+</head>
+<body>
+
+    <h1>Welcome!</h1>
+    
+    <p>Click the "Notify Me" button to receive the latest news.</p>
+    
+    <!-- News Notification Button -->
+    <button id="newsNotificationButton" onclick="notifyMe()">Notify Me</button>
+
+    <script>
+        // JavaScript function: News Notification Function
+        function notifyMe() {
+            alert("New news is available!");
+        }
+    </script>
+
+</body>
+</html>
